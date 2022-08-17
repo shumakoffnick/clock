@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-clock{
+  position: relative;
+}
+.react-clock__face{
+  width: 150px;
+  height: 150px;
+  border: 2px solid #7338f3;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 40px;
+  position: absolute;
+  }
+
+
+.react-clock__hand{
+  position: absolute;
+  border: 1px solid black;
+  margin-top: 120px;
+  width: 10px;
+  height: 20px;
+  
+}
+.react-clock__hand__body{
+color: #7338f3;
+background-color: black;
+width: 100px;
+height: 100px;
+position: absolute;
+  } 
+
+.react-clock__hour-hand{
+    width: 10px;
+    height: 10px;
+    background-color: #7338f3;
+  }
+.react-clock__second-hand__body{
+  width: 10px;
+}
+.react-clock__hand{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+.react-clock__hand__body {
+width: 1px;
+height: 1px;
+}
+.react-clock__hour-hand{
+  
+  width: 90px;
+  height: 4px;
+  margin-top: 150px;
+}
+.react-clock__minute-hand{
+  
+  width: 100px;
+  height: 2px;
+  background-color: #7338f3;
+  margin-top: 100px;
+}
+.react-clock__second-hand{
+  width: 80px;
+  height: 1px;
+  background-color: rgb(161, 33, 135);
+  margin-top: 120px;
+  margin-left: 100px;
+}
