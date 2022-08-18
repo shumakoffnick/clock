@@ -84,3 +84,13 @@ height: 1px;
   margin-top: 115px;
   margin-left: 155px;
 }
+
+.sem{
+    width: 10em;
+    height: 5em;
+    border: 2px solid red;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    background: mistyrose;
+    margin-top: 250px;
+    margin-left: 50px;
+}
