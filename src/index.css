@@ -31,11 +31,10 @@ code {
 
 .react-clock__hand{
   position: absolute;
-  border: 1px solid black;
   margin-top: 120px;
   width: 10px;
   height: 20px;
-  
+  transform-origin: left;
 }
 .react-clock__hand__body{
 color: #7338f3;
@@ -65,21 +64,23 @@ height: 1px;
 }
 .react-clock__hour-hand{
   
-  width: 90px;
+  width: 40px;
   height: 4px;
-  margin-top: 150px;
+  margin-top: 115px;
+  margin-left: 155px;
 }
 .react-clock__minute-hand{
   
-  width: 100px;
+  width: 60px;
   height: 2px;
   background-color: #7338f3;
-  margin-top: 100px;
+  margin-top: 115px;
+  margin-left: 155px;
 }
 .react-clock__second-hand{
-  width: 80px;
+  width: 65px;
   height: 1px;
   background-color: rgb(161, 33, 135);
-  margin-top: 120px;
-  margin-left: 100px;
+  margin-top: 115px;
+  margin-left: 155px;
 }
